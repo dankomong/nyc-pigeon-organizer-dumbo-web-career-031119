@@ -1,9 +1,6 @@
 def nyc_pigeon_organizer(data)
   # write your code here!
   new_pigeon = {}
-  colors = []
-  genders = []
-  livess = []
   name_sub = ""
   data.each do |key, values|
     values.each do |color, names|
@@ -14,4 +11,5 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  new_pigeon
 end
