@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
     values.each do |color, names|
       names.each do |name|
         new_pigeon[name] = {}
-        
+        new_pigeon[key] = []
       end
     end
   end
