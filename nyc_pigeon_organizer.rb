@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         new_pigeon[name] = {}
         new_pigeon[name][key] = []
-        new_pigeon[name][key].push(values.to_s)
+        new_pigeon[name][key].push(color.to_s)
       end
     end
   end
