@@ -5,8 +5,8 @@ def nyc_pigeon_organizer(data)
   data.each do |key, values|
     values.each do |color, names|
       names.each do |name|
-        new_pigeon[name] = {}
-        new_pigeon[name][key] = []
+        new_pigeon[name] ||= {}
+        new_pigeon[name][key] ||= []
         new_pigeon[name][key].push(color.to_s)
       end
     end
