@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, values|
     values.each do |color, names|
       names.each do |name|
-        name_sub = name
+        new_pigeon[name] = {}
         
       end
     end
